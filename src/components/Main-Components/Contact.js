@@ -110,7 +110,6 @@ export default function Contact() {
                                 <button
                                     className="theme-btn"
                                     name="submit"
-                                    type="submit"
                                     id="submit-form"
                                     onClick={onSubmit}
                                 >send message</button>
