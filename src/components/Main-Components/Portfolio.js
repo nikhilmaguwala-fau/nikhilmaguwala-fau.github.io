@@ -47,6 +47,32 @@ export default function Portfolio() {
                         </div>
                     </div>
 
+                    <div className="col-md-12 scroll-animation"  data-aos='fade-left'>
+                        <div className="portfolio-item portfolio-half">
+                            <div className="portfolio-item-inner">
+                                <a href="../assets/images/portfolio_img_4.png" data-lightbox="example-1">
+                                    <img src="../assets/images/portfolio_img_4.png" alt="Portfolio"/>
+                                </a>
+
+                                <ul className="portfolio-categories">
+                                    <li>
+                                        <a target='_blank' href="https://react.dev/">React</a>
+                                    </li>
+                                    <li>
+                                        <a target='_blank' href="https://www.python.org/">Python</a>
+                                    </li>
+                                    <li>
+                                        <a target='_blank' href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Javascript</a>
+                                    </li>
+                                    <li>
+                                        <a target='_blank' href="https://www.w3schools.com/html/default.asp">HTML/CSS</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h2><a target='_blank' href="https://www.youtube.com/playlist?list=PLjMIC_h0rNV1GmEoxd_7C77CJlbv_sHun">Full Stack Developer Course</a></h2>
+                        </div>
+                    </div>
+
                     <div className="col-md-12 scroll-animation" data-aos='fade-right'>
                         <div className="portfolio-item portfolio-half">
                             <div className="portfolio-item-inner">

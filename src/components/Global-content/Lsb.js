@@ -4,11 +4,10 @@ export default function Lsb() {
   return (
         <div className="left-sidebar">
             <div className="sidebar-header d-flex align-items-center justify-content-between">
-                <img src="./assets/images/logo.png" alt="Logo"/>
-                <span className="designation">Full Stack Developer</span>
+                <img src="./assets/images/nikhil_logo.png" alt="Logo"/>
             </div>
             <img className="me" src="./assets/images/portfolio_img.png" alt="Me"/>
-            <h2 className="email">nikhilkmaguwala@gmail.com</h2>
+            <h2 className="email">Full Stack Developer</h2>
             <h2 className="address">Base in Nuremberg, Bayern, Germany</h2>
             <p className="copyright">&copy; 2023 Nikhil. All Rights Reserved</p>
             <ul className="social-profile d-flex align-items-center flex-wrap justify-content-center">
@@ -26,7 +25,7 @@ export default function Lsb() {
                 </li>
             </ul>
             <a target='_blank' href="./assets/nikhil_maguwala_resume.pdf" className="theme-btn">
-                <i className="las la-envelope"></i> Resume
+                <i className="las la-user-circle"></i> Resume
             </a>
         </div>
   )

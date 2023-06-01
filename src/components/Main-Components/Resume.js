@@ -14,10 +14,16 @@ export default function Resume() {
                     <h4 className="subtitle scroll-animation" data-aos='fade-up'>
                         <i className="las la-briefcase"></i> Resume
                     </h4>
-                    <h1 className="scroll-animation" data-aos='fade-up'>Education & <span>Experience</span></h1>
+                    <h1 className="scroll-animation" data-aos='fade-up'>Current <span>Experience</span></h1>
                 </div>
 
+
                 <div className="resume-timeline">
+                    <div className="item scroll-animation" data-aos='fade-left'>
+                        <span className="date">April, 2023 - Present</span>
+                        <h2>Coding Tutor (Part-Time)</h2>
+                        <p>4Geeks Academy</p>
+                    </div>
                     <div className="item scroll-animation" data-aos='fade-right'>
                         <span className="date">May, 2022 - Present</span>
                         <h2>Software Developer</h2>
@@ -38,6 +44,13 @@ export default function Resume() {
                         <h2>Website & Application Developer</h2>
                         <p>Freelance(Gangadhara Primary School)</p>
                     </div>
+                </div>
+
+                <div className="section-header" style={{marginTop: 50}}>
+                    <h1 className="scroll-animation" data-aos='fade-up'>My <span>Education</span></h1>
+                </div>
+
+                <div className="resume-timeline">
                     <div className="item scroll-animation" data-aos='fade-right'>
                         <span className="date">2022 - Present</span>
                         <h2>Master of Science in Data Science</h2>

@@ -672,6 +672,11 @@ main.drake-main {
   padding: 50px;
   z-index: 10;
 }
+.left-sidebar .email {
+  font-weight: bold;
+  color: var(--primary_color);
+}
+
 .drake-main .left-sidebar {
   display: none;
 }
