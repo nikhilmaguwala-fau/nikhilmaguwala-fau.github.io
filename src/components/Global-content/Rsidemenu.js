@@ -21,12 +21,12 @@ export default function Rsidemenu() {
                     <p>Menu</p>
                     <ul className="menu scroll-nav-responsive d-flex">
                         <li>
-                            <a className="scroll-to" href="#home"onClick={removeActive}>
+                            <a className="scroll-to" href="#home" onClick={removeActive}>
                                 <i className="las la-home"></i> <span>Home</span>
                             </a>
                         </li>
                         <li>
-                            <a className="scroll-to" href="#about"onClick={removeActive}>
+                            <a className="scroll-to" href="#about" onClick={removeActive}>
                                 <i className="lar la-user"></i> <span>About</span>
                             </a>
                         </li>
@@ -36,17 +36,17 @@ export default function Rsidemenu() {
                             </a>
                         </li>
                         <li>
-                            <a className="scroll-to" href="#services"onClick={removeActive}>
+                            <a className="scroll-to" href="#services" onClick={removeActive}>
                                 <i className="las la-stream"></i> <span>Services</span>
                             </a>
                         </li>
                         <li>
-                            <a className="scroll-to" href="#skills"onClick={removeActive}>
+                            <a className="scroll-to" href="#skills" onClick={removeActive}>
                                 <i className="las la-shapes"></i> <span>Skills</span>
                             </a>
                         </li>
                         <li>
-                            <a className="scroll-to" href="#portfolio"onClick={removeActive}>
+                            <a className="scroll-to" href="#portfolio" onClick={removeActive}>
                                 <i className="las la-grip-vertical"></i> <span>Portfolios</span>
                             </a>
                         </li>
@@ -56,8 +56,13 @@ export default function Rsidemenu() {
                         {/*    </a>*/}
                         {/*</li>*/}
                         <li>
-                            <a className="scroll-to" href="#contact"onClick={removeActive}>
+                            <a className="scroll-to" href="#contact" onClick={removeActive}>
                                 <i className="las la-envelope"></i> <span>Contact</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a className="scroll-to" href="/full-stack" onClick={removeActive}>
+                                <i className="las la-laptop-code"></i> <span>Course</span>
                             </a>
                         </li>
                     </ul>

@@ -1,0 +1,67 @@
+.blog-wrap {
+    max-width: 700px;
+    margin: 0 auto;
+}
+  
+.blog-goBack {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #a9a9a9;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: block;
+}
+  .blog-wrap header {
+    text-align: center;
+  }
+  
+  .blog-date {
+    font-size: 0.8rem;
+    color: #a9a9a9;
+    font-weight: 500;
+  }
+  
+  .blog-wrap img {
+    width: 100%;
+  }
+  
+  .blog-subCategory {
+    display: flex;
+    justify-content: center;
+  }
+  .blog-subCategory > div {
+    margin: 1rem;
+  }
+  .blog-desc {
+    padding: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .fundamental {
+    margin-top: 1rem;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  button,
+  input {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .container {
+    max-width: 1140px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 1rem 0;
+  }

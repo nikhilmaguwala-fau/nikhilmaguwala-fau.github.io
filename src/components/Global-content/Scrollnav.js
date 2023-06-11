@@ -43,6 +43,11 @@ export default function Scrollnav() {
                 <span>Contact</span> <i className="las la-envelope"></i>
             </a>
         </li>
+        <li>
+            <a className="scroll-to" href="/full-stack">
+                <span>Course</span> <i className="las la-laptop-code"></i>
+            </a>
+        </li>
     </ul>
   )
 }
